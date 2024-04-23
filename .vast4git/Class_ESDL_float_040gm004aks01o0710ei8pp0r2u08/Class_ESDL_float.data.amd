@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentData toolVersion="V6.1.4_CS_SR47" schemaVersion="6.1.0.0">
+	<DataSet name="Class_ESDL_float" OID="_040gm004aks01o0710ei8pp0r2vg8" default="false" classConfig="true">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2024-04-15T07:34:35" timeStampCounter="539"/>
+	</DataSet>
+	<DataSet name="Data" OID="_040gm004aks01o0710ei8pp0r30g8" default="true" classConfig="false">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2024-04-15T07:34:35" timeStampCounter="537"/>
+		<DataEntry elementName="array" elementOID="_040gm004aks01o0714avu6bbfarha">
+			<DataVariant name="default">
+				<DimensionalType>
+					<Array currentSizeX="4">
+						<Value>
+							<Numeric value="0.0"/>
+						</Value>
+						<Value>
+							<Numeric value="0.0"/>
+						</Value>
+						<Value>
+							<Numeric value="0.0"/>
+						</Value>
+						<Value>
+							<Numeric value="0.0"/>
+						</Value>
+					</Array>
+				</DimensionalType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="b" elementOID="_040gm004aks01o07143vc0q9utgj0">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="curve_float" elementOID="_040gm004aks01o0714avtpfsc9u18">
+			<DataVariant name="default">
+				<DimensionalType>
+					<OneD currentSizeX="4" type="normal" interpolation="Linear" extrapolation="Constant">
+						<XAxis currentSizeX="4">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="1.0"/>
+							</Value>
+							<Value>
+								<Numeric value="2.0"/>
+							</Value>
+							<Value>
+								<Numeric value="3.0"/>
+							</Value>
+						</XAxis>
+						<Values currentSizeX="4">
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+							<Value>
+								<Numeric value="0.0"/>
+							</Value>
+						</Values>
+					</OneD>
+				</DimensionalType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="intVar1" elementOID="_040gm004aks01o07189fgjv7b8lf0">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="intVar2" elementOID="_040gm004aks01o07189fgk0jh16v0">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="local_param_float1" elementOID="_040gm004aks01o07143v9e152bo2a">
+			<DataVariant name="default">
+				<Dependency>
+					<Parameter formalName="x" formalOID="_040gm004aks01o07143v9ebtdrv2a" valueName="param_float1" valueOID="_040gm004aks01o07143v9e3trfria"/>
+				</Dependency>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="local_param_float2" elementOID="_040gm004aks01o07143v9e17k7pia">
+			<DataVariant name="default">
+				<Dependency>
+					<Parameter formalName="x" formalOID="_040gm004aks01o07143v9ejv8802c" valueName="param_float2" valueOID="_040gm004aks01o07143v9e5th7sia"/>
+					<Parameter formalName="y" formalOID="_040gm004aks01o07143va8d4c6m2i" valueName="param_float1" valueOID="_040gm004aks01o07143v9e3trfria"/>
+				</Dependency>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="local_param_float4" elementOID="_040gm004aks01o07143v9e1advr2a">
+			<DataVariant name="default">
+				<Dependency>
+					<Parameter formalName="x" formalOID="_040gm004aks01o07143v9f6nloq2c" valueName="param_float4" valueOID="_040gm004aks01o07143v9e6nlrtia"/>
+				</Dependency>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="var_float" elementOID="_040gm004aks01o0714afh6eqvjn0k">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="var_float1" elementOID="_040gm004aks01o0710fir1gbs8ag0">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="var_float2" elementOID="_040gm004aks01o0710ei8qdqqrgg8">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="var_float3" elementOID="_040gm004aks01o0710ei8qfr7vhg8">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="var_udisc" elementOID="_040gm004aks01o0714afh6nnc91gm">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+	</DataSet>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference>
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>r24dl7zKYK4xYhwvTSGlzwavIZc=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>KTfRGeu/HEi2RAfjGawHsrH0x/Iv7ZJCGbqLbdF5XtkbfclrrdEnIZvfgfmD/sr3
+RuLpTcc9odGNX12sKnhDQQjFskXsYAjFUqcZpG1yvVsro81bjVNW/O3EngTM2yBX
+gca1B7PG6QOt73NvqgBJQtiaWy0Waac/Ig7VcorsfeXCuvaryeUEqRSEAdcmJ8Ga
+0VfnRR5f/XVNMQL2rva7q7psrYH6ZTifkjrAuxWyEmfv+BhmvDFUWGNBMWDqV5vi
+tQVJ6LpgHfihUO9XEgHwVnBHRg9ZOT1DeCaMhMIoRcV0r7CjvnmRtU7XliBaXE0H
+A0SWolBb2hyOVf3ZFaOV7g==</SignatureValue>
+		<KeyInfo>
+			<KeyName>Etas Ascet Verification</KeyName>
+		</KeyInfo>
+	</Signature>
+</ComponentData>

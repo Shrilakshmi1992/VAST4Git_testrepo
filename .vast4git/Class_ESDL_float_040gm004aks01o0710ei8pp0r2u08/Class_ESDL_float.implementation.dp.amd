@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentImplementation toolVersion="V6.1.4_CS_SR47" schemaVersion="6.1.0.1">
+	<ImplementationSet name="Class_ESDL_float_DEFAULT" default="false" classConfig="true" memoryLocation="Default" generateMethodBody="true" optimizeMethodCalls="true" usingServiceRoutines="false" hierarchicalGenerationForSM="true" outlineMethodsSM="true" inlinePrivateMethodsSM="true" generateDataStructures="true" cacheLocking="automatic" userDefinedOrder="false" OID="_040gm004aks01o0710ei8pp0uv2g8">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2024-04-15T07:35:17" timeStampCounter="541"/>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="dT" elementOID="_040gm004aks01o0710ei8pp0uv608">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="false" isLimitOverflow="false" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="dT" master="Model" physType="real64" implType="uint32" zeroNotIncluded="false">
+							<PhysicalInterval min="0.0" max="2147.483008"/>
+							<ImplementationInterval min="0" max="16777211"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="param_float1" elementOID="_040gm004aks01o07183upmlqghug2">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="param_float2" elementOID="_040gm004aks01o07183upmlqghv02">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="param_float4" elementOID="_040gm004aks01o07183upmlqghu02">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+	</ImplementationSet>
+	<ImplementationSet name="Impl" default="true" classConfig="false" memoryLocation="Default" generateMethodBody="true" optimizeMethodCalls="true" usingServiceRoutines="false" hierarchicalGenerationForSM="true" outlineMethodsSM="true" inlinePrivateMethodsSM="true" generateDataStructures="true" cacheLocking="automatic" userDefinedOrder="false" OID="_040gm004aks01o0710ei8pp0uv3g8">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2024-04-15T07:35:17" timeStampCounter="542"/>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="Class_ESDL_float" elementOID="_040gm004aks01o0710ei8pp0uv6g8">
+					<ComplexImplementation implementationName="Impl" implementationOID="_040gm004aks01o0710ei8pp0r3008"/>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+	</ImplementationSet>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference>
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>HK/p9r5PV0ACv7wJrJXbgPRXTXI=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>iNJ6FMuAjxYHanf+4c63J6qoHCu7SEAH0ieWz/v+No9ZYTk/ZOG5inKLo/SjhJ/C
+LwBewjOVGoCohg7g9CVzmvAlsxsrCo45EFBs0/v5pehgTiiWyE3gtzFOdwPtrWaV
+1Y6HaJ0NGAlkIFBqyWWmYqtLAyps3qn9+lHPJ4ySrk+4F8jSb+5jIJFVpem/aP1m
+JlLPaDjsObuFVYTM0MywAevhPZfCWaFNs1EIyHQsBThBp7hX4v2zcKCANTmtRWtR
+5S1++9Y3VTE8Td3YhcN970bhE21kxSYW8mEw2KEq7d3+VrIU1v87gDS6gWgQ0gtO
+4eImF+zq8tsD4HkrAVMmug==</SignatureValue>
+		<KeyInfo>
+			<KeyName>Etas Ascet Verification</KeyName>
+		</KeyInfo>
+	</Signature>
+</ComponentImplementation>

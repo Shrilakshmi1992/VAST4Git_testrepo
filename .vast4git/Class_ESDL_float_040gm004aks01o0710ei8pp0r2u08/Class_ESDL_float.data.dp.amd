@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentData toolVersion="V6.1.4_CS_SR47" schemaVersion="6.1.0.0">
+	<DataSet name="Class_ESDL_float_DEFAULT" OID="_040gm004aks01o0710ei8pp0uv308" default="false" classConfig="true">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2024-04-15T07:35:17" timeStampCounter="543"/>
+		<DataEntry elementName="dT" elementOID="_040gm004aks01o0710ei8pp0uv608">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="param_float1" elementOID="_040gm004aks01o07183upmlqghug2">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="param_float2" elementOID="_040gm004aks01o07183upmlqghv02">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+		<DataEntry elementName="param_float4" elementOID="_040gm004aks01o07183upmlqghu02">
+			<DataVariant name="default">
+				<ScalarType>
+					<Numeric value="0.0"/>
+				</ScalarType>
+			</DataVariant>
+		</DataEntry>
+	</DataSet>
+	<DataSet name="Data" OID="_040gm004aks01o0710ei8pp0uv408" default="true" classConfig="false">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2024-04-15T07:35:17" timeStampCounter="544"/>
+		<DataEntry elementName="Class_ESDL_float" elementOID="_040gm004aks01o0710ei8pp0uv6g8">
+			<DataVariant name="default">
+				<ComplexType dataName="Data" dataOID="_040gm004aks01o0710ei8pp0r30g8"/>
+			</DataVariant>
+		</DataEntry>
+	</DataSet>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference>
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>FXdSLQDiV917NsD54v1eOHXiXxE=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>MjI6iXxRzgb32Kc3tm57Y5urTH6R1Ku6UbNXf+fBzoIyXdzkIYMUQ7Ry0hAPME0m
+PJQ4yyY6vK8nWUeCxOZ0hJ5DsSFMfToi1XvIFiGE7KNv+gCNFI9oyKaBHLQcrb03
+mbVBvZclDxHzjeB2hcsAOx/F3Caq0f6wFXdbA8XmESp+ISei36F1LD+1FBF6YGzB
+YkBfNro+y2mdqKsfgu0ACyZ3tiFWAEIguLLtUtIyY6kZ+tOG2T6TAG3tyyBIj6hF
+S7Mzn+9Jdi3yeDoMp7PKGOzmb5eCiCfxSXtx5d98JwZja3ZTYnXQP6fb0xY5YNtz
+5nfrzpQj8SAyhZ1hxUAV2w==</SignatureValue>
+		<KeyInfo>
+			<KeyName>Etas Ascet Verification</KeyName>
+		</KeyInfo>
+	</Signature>
+</ComponentData>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentImplementation toolVersion="V6.1.4_CS_SR47" schemaVersion="6.1.0.1">
+	<ImplementationSet name="Class_ESDL_float" default="false" classConfig="true" memoryLocation="Default" generateMethodBody="true" optimizeMethodCalls="true" usingServiceRoutines="false" hierarchicalGenerationForSM="true" outlineMethodsSM="true" inlinePrivateMethodsSM="true" generateDataStructures="true" cacheLocking="automatic" userDefinedOrder="false" OID="_040gm004aks01o0710ei8pp0r2v08">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2024-04-15T07:34:35" timeStampCounter="540"/>
+	</ImplementationSet>
+	<ImplementationSet name="Impl" default="true" classConfig="false" memoryLocation="Default" generateMethodBody="true" optimizeMethodCalls="true" usingServiceRoutines="false" hierarchicalGenerationForSM="true" outlineMethodsSM="true" inlinePrivateMethodsSM="true" generateDataStructures="true" cacheLocking="automatic" userDefinedOrder="false" OID="_040gm004aks01o0710ei8pp0r3008">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2024-04-15T07:34:35" timeStampCounter="538"/>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="arg" methodName="calc" elementOID="_040gm004aks01o07187f3flq9t7ho">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="real32" zeroNotIncluded="false">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="array" elementOID="_040gm004aks01o0714avu6bbfarha">
+					<DimensionalImplementation>
+						<ArrayImplementation>
+							<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="real32" zeroNotIncluded="false">
+								<PhysicalInterval min="-INF" max="INF"/>
+								<ImplementationInterval min="-INF" max="INF"/>
+							</NumericImplementation>
+						</ArrayImplementation>
+					</DimensionalImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="b" elementOID="_040gm004aks01o07143vc0q9utgj0">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="false" isLimitOverflow="false" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="1" formula="ident" master="Implementation" physType="uint32" implType="uint32" zeroNotIncluded="false">
+							<PhysicalInterval min="0" max="2147483647"/>
+							<ImplementationInterval min="0" max="2147483647"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="curve_float" elementOID="_040gm004aks01o0714avtpfsc9u18">
+					<DimensionalImplementation>
+						<OneDImplementation>
+							<XAxis>
+								<NumericImplementation limitAssignments="false" isLimitOverflow="false" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="real32" zeroNotIncluded="false">
+									<PhysicalInterval min="-INF" max="INF"/>
+									<ImplementationInterval min="-INF" max="INF"/>
+								</NumericImplementation>
+							</XAxis>
+							<TableValues>
+								<NumericImplementation limitAssignments="false" isLimitOverflow="false" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="real32" zeroNotIncluded="false">
+									<PhysicalInterval min="-INF" max="INF"/>
+									<ImplementationInterval min="-INF" max="INF"/>
+								</NumericImplementation>
+							</TableValues>
+						</OneDImplementation>
+					</DimensionalImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="intVar1" elementOID="_040gm004aks01o07189fgjv7b8lf0">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="uint8" zeroNotIncluded="false">
+							<PhysicalInterval min="0.0" max="255.0"/>
+							<ImplementationInterval min="0" max="255"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="intVar2" elementOID="_040gm004aks01o07189fgk0jh16v0">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="uint8" zeroNotIncluded="false">
+							<PhysicalInterval min="0.0" max="255.0"/>
+							<ImplementationInterval min="0" max="255"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="local_param_float1" elementOID="_040gm004aks01o07143v9e152bo2a">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="real32" zeroNotIncluded="false">
+							<PhysicalInterval min="1.0" max="200.0"/>
+							<ImplementationInterval min="1.0" max="200.0"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="local_param_float2" elementOID="_040gm004aks01o07143v9e17k7pia">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="real32" zeroNotIncluded="false">
+							<PhysicalInterval min="1.0" max="10.0"/>
+							<ImplementationInterval min="1.0" max="10.0"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="local_param_float4" elementOID="_040gm004aks01o07143v9e1advr2a">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="real32" zeroNotIncluded="false">
+							<PhysicalInterval min="1.0" max="2147483647.0"/>
+							<ImplementationInterval min="1" max="2147483647"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="locvar" methodName="calc" elementOID="_040gm004aks01o07143vc1fp570j0">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="real32" zeroNotIncluded="false">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="locvar_float" methodName="a" elementOID="_040gm004aks01o071c90gfgob2kg0">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="real32" zeroNotIncluded="false">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="return" methodName="a" elementOID="_040gm004aks01o07143vbo50nhs2s">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="real32" zeroNotIncluded="false">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="return" methodName="out" elementOID="_040gm004aks01o071413f0k62icgg">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="real32" zeroNotIncluded="false">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="value1" methodName="calc" elementOID="_040gm004aks01o0714df79i71mlg0">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="real32" zeroNotIncluded="false">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="var_float" elementOID="_040gm004aks01o0714afh6eqvjn0k">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="real32" zeroNotIncluded="false">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="var_float1" elementOID="_040gm004aks01o0710fir1gbs8ag0">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Model" physType="real64" implType="real64" zeroNotIncluded="false">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="var_float2" elementOID="_040gm004aks01o0710ei8qdqqrgg8">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="real32" zeroNotIncluded="false">
+							<PhysicalInterval min="-INF" max="INF"/>
+							<ImplementationInterval min="-INF" max="INF"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="var_float3" elementOID="_040gm004aks01o0710ei8qfr7vhg8">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="true" isLimitOverflow="true" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="0" formula="ident" master="Implementation" physType="real64" implType="uint16" zeroNotIncluded="false">
+							<PhysicalInterval min="0.0" max="65535.0"/>
+							<ImplementationInterval min="0" max="65535"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant name="default">
+				<ElementImplementation elementName="var_udisc" elementOID="_040gm004aks01o0714afh6nnc91gm">
+					<ScalarImplementation>
+						<NumericImplementation limitAssignments="false" isLimitOverflow="false" limitOverflow="automatic" memoryLocationInstance="Default" additionalInformation="" cacheLocking="automatic" quantization="1" formula="ident" master="Model" physType="uint32" implType="uint8" zeroNotIncluded="false">
+							<PhysicalInterval min="0" max="255"/>
+							<ImplementationInterval min="0" max="255"/>
+						</NumericImplementation>
+					</ScalarImplementation>
+				</ElementImplementation>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant>
+				<MethodImplementation methodOID="_040gm004aks01o07143vbo1ru9c2s" methodName="a" memoryLocation="Default" cacheLocking="automatic" inline="false" useFPU="true" symbol=""/>
+			</ImplementationVariant>
+		</ImplementationEntry>
+		<ImplementationEntry>
+			<ImplementationVariant>
+				<MethodImplementation methodOID="_040gm004aks01o0710ei8pp0t3108" methodName="calc" memoryLocation="Default" cacheLocking="automatic" inline="false" useFPU="true" symbol=""/>
+			</ImplementationVariant>
+		</ImplementationEntry>
+	</ImplementationSet>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference>
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>ZZ+b2Uev9ip0xFZBshBrwUlf6nc=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>Y/nM3dwug+JmaMxWf1hmpS114qHkleH7ZKenbIKVkbJSvmVZzWE28I8iUdalKzK3
+am0S00s/m68TmolnUrlWHGtPHE2DCrvQgld0u+tp6//z6G1n+QMEvf8VSuwhm9NP
+23WuFSvf0dDb3d4NLvFJKbiyH0FibAFQ6Iy1U+aegG5zxBARW2KfZHOLj8lMBMNX
+R2j8uLnjTQ8UwmJerBv+1HWl2GMlZlolXUUtqC8iKn8iZ8h9jgCDysWW51+PfVka
+eNb/vYD2A+nbyS0f5rS4zbBmNB+9jQCIKIBwjGSsaIbY4XTc+Qjtlgc3n13bX8PN
+WfYdB4hyD8eLBH6BaBowyg==</SignatureValue>
+		<KeyInfo>
+			<KeyName>Etas Ascet Verification</KeyName>
+		</KeyInfo>
+	</Signature>
+</ComponentImplementation>

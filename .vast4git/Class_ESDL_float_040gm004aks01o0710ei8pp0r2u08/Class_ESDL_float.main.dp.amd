@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentMain toolVersion="V6.1.4_CS_SR47" schemaVersion="6.1.1.0">
+	<Component name="Class_ESDL_float_DEFAULT" nameSpace=".defaultProject" OID="_040gm004aks01o0710ei8pp0uv1g8" timeStamp="2024-04-15T06:55:48" componentType="ASCET_DefaultProject" specificationType="Project">
+		<TimeStamp timeStampKey="applicationTimeStamp" timeStampValue="2024-04-15T06:55:48" timeStampCounter="414"/>
+		<CustomerSpecificAttributes>
+			<ConfigurationManagement edition="true" versionID="" configurationID=""/>
+			<RequirementsManagement requirementsID=""/>
+			<AccessManagement read="true" write="true" import="true"/>
+		</CustomerSpecificAttributes>
+		<Elements>
+			<Element name="dT" OID="_040gm004aks01o0710ei8pp0uv608" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes modelType="scalar" basicModelType="dt" unit="">
+					<ScalarType>
+						<PrimitiveAttributes kind="variable" scope="exported" virtual="false" dependent="false" volatile="true" calibrated="true" set="false" get="false" read="true" write="true" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="param_float1" OID="_040gm004aks01o07183upmlqghug2" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<PrimitiveAttributes kind="parameter" scope="exported" virtual="false" dependent="false" volatile="false" calibrated="true" set="false" get="false" read="true" write="false" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="param_float2" OID="_040gm004aks01o07183upmlqghv02" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<PrimitiveAttributes kind="parameter" scope="exported" virtual="false" dependent="false" volatile="false" calibrated="true" set="false" get="false" read="true" write="false" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="param_float4" OID="_040gm004aks01o07183upmlqghu02" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes modelType="scalar" basicModelType="cont" unit="">
+					<ScalarType>
+						<PrimitiveAttributes kind="parameter" scope="exported" virtual="false" dependent="false" volatile="false" calibrated="true" set="false" get="false" read="true" write="false" reference="false"/>
+					</ScalarType>
+				</ElementAttributes>
+			</Element>
+			<Element name="Class_ESDL_float" OID="_040gm004aks01o0710ei8pp0uv6g8" ignore="false">
+				<Comment></Comment>
+				<ElementAttributes modelType="complex" basicModelType="class" unit="">
+					<ComplexType>
+						<ComplexAttributes componentName="/float_db/Class_ESDL_float" componentID="_040gm004aks01o0710ei8pp0r2u08" scope="local" set="false" get="false" read="true" write="true" reference="false"/>
+					</ComplexType>
+				</ElementAttributes>
+			</Element>
+		</Elements>
+		<MethodSignatures/>
+		<TimeStamps>
+			<TimeStamp timeStampKey="directAccessTimeStampKey" timeStampValue="2024-04-15T06:55:48"/>
+			<TimeStamp timeStampKey="exportImportTimeStampKey" timeStampValue="2024-04-15T06:55:48"/>
+			<TimeStamp timeStampKey="formulaTimeStampKey" timeStampValue="2024-04-15T06:55:48"/>
+			<TimeStamp timeStampKey="implementationCastTimeStampKey" timeStampValue="2024-04-15T06:55:48"/>
+			<TimeStamp timeStampKey="implementationTypeTimeStampKey" timeStampValue="2024-04-15T06:55:48"/>
+			<TimeStamp timeStampKey="methodsTimeStampKey" timeStampValue="2024-04-15T06:55:48"/>
+		</TimeStamps>
+	</Component>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference>
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>rUDJ9RpSR3rY/6Y2sh/jpx9wFUY=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>g21w9kyJlEhQnavLkgBAxHxvG37fCp7CmgaKNw9b1fTpYWAWtcRJDcU2+OOFE1wG
+Vy0JC8eh+wuBqJ0/lbsd+Ucz/gpxzhMjh21AHYjzf8b8L/acyol2XL8BjL1CGXdk
+Ww0R48u5TKWcVvGsqV+mY41fkl430NOT18dCOgkoubdDz4xM4pJT4vcXN03fjAD2
+m4EPY/PyA3Mbj+64GtHXzlF2I+z6Q1+TUhA9L56T3k0CCv9MnmKqSoN2aZCCHFCe
+b4Sa/nMcTt4U9cgOvpQfsJuq95GgFS1qrnjiW51W8Ib6IOMbxe45jiWLOCpwd04W
+UjlGsJaDwd+JPzpXmMFtGw==</SignatureValue>
+		<KeyInfo>
+			<KeyName>Etas Ascet Verification</KeyName>
+		</KeyInfo>
+	</Signature>
+</ComponentMain>
